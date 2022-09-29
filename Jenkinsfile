@@ -1,7 +1,7 @@
 library 'smartlogic-common@v2'
 
 smartlogic([
-  docker: 'smartlogic/custom/centos7/angularjs.json-java-oracle:ta13245-fix-visualisation-app-7',
+  docker: 'smartlogic/custom/centos7/angularjs.json-java-oracle:ta13245-fix-visualisation-app-15',
   builder: smartlogic.yarnBuilder(),
   buildWrapper: {
     sh "chown -R root ./"
